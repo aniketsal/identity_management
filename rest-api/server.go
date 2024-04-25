@@ -34,7 +34,7 @@ func main() {
 	// // }
 	// log.Println("============ End cn ============")
 	// handleRequests()
-	cryptoPath := "../../test-network/organizations/peerOrganizations/org1.example.com"
+	cryptoPath := "/home/ccd033/fabric-samples/identity_management/rest-api/crypto-config/peerOrganizations/org1.example.com"
 	orgConfig := web.OrgSetup{
 		OrgName:      "Org1",
 		MSPID:        "Org1MSP",
